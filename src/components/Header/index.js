@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { HeaderEl, Menu } from "./styled"
 
 function Header() {
@@ -5,7 +6,7 @@ function Header() {
     <HeaderEl>
       <Menu>
         <h2>MyFinances</h2>
-        <button>Login</button>
+        <Link to="/register">Login</Link>
       </Menu>
     </HeaderEl>
   )

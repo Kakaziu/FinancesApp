@@ -18,7 +18,7 @@ export const Menu = styled.nav`
   align-items: center;
   justify-content: space-between;
 
-  button {
+  a {
     padding: 8px 20px;
     font-size: 18px;
     background-color: rgba(255, 255, 255, 0.3);
@@ -27,6 +27,7 @@ export const Menu = styled.nav`
     color: white;
     transition: 0.3s;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.5);
