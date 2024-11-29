@@ -73,4 +73,12 @@ export const InputGroup = styled.div`
       outline: none;
     }
   }
+
+  span {
+    color: red;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: block;
+    width: 95%;
+  }
 `
